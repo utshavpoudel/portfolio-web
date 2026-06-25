@@ -5,9 +5,34 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>About</title>
         <link rel="stylesheet" href="style.css">
+        <link rel="stylesheet" href="about.css">
 
 </head>
 <body>
-    Hello! I'm Utshav Poudel, a final-year Computer Engineering student with a passion for software development, artificial intelligence, and problem-solving. I enjoy transforming ideas into practical and user-friendly applications using modern technologies.
+    <div id="navbar"></div>
+
+<script>
+fetch("navbar.html")
+    .then(response => response.text())
+    .then(data => {
+        document.getElementById("navbar").innerHTML = data;
+    });
+</script>
+
+<section class="about">
+    <div class="left">
+        <h1>About Me</h1>
+        <p>
+            Hi, I'm Utshav Poudel, a final-year Computer Engineering student passionate about software development, artificial intelligence, and emerging technologies. I enjoy building web applications, exploring machine learning, and creating solutions that address real-world challenges. I'm always eager to learn, grow, and contribute to innovative projects that make a meaningful impact.
+
+        </p>
+
+    </div>
+
+    <div class="right">
+        <img src="images/mypic.jpg" alt="Utshav">
+    </div>
+</section>
+
 </body>
 </html>
