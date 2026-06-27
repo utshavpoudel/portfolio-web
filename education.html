@@ -6,6 +6,7 @@
     <title>Education</title>
     <link rel="stylesheet" href="style.css">
     <link rel="stylesheet" href="education.css">
+    <link rel="stylesheet" href="footer.css">
 
 </head>
 <body>
@@ -20,9 +21,52 @@ fetch("navbar.html")
 </script>
 
 
+<div class="container">
+
+    <main class="row">
+
+        <section class="col">
+          <header class="title">
+            <h2>EDUCATION</h2>
+          </header>
+
+          <div class="contents">
+            <div class="box">
+<h4>2006-2019</h4>
+<h3>School Leaving Certificate(SLC)</h3>
+<p>A proud graduate of Kavya School (Class of 2019), my academic journey has always been driven by a strong affinity for numbers and logic—math having always been my favorite subject. This foundational love for analytical problem-solving naturally guided me toward the tech landscape, where I now translate quantitative logic into functional code and data-driven solutions. I thrive on breaking down complex problems and turning raw variables into meaningful insights</p>
+            </div>
+
+           <div class="box">
+<h4>2020-2022</h4>
+<h3>Higher Secondary Education(+2)</h3>
+<p>Following high school, I completed my +2 studies at Trinity International College, where I spent two transformative years deeply immersed in Mathematics and Computer Science. Driven by a genuine interest in how logic and technology intersect, I excelled academically. This rigorous academic foundation solidified my passion for structured problem-solving and set the stage for my journey into advanced technical computing.</p>
+            </div>
+
+<div class="box">
+<h4>2023-present</h4>
+<h3>Bachelor's in Computer Engineering(BE) </h3>
+<p>Expanding on my foundational love for logic and technology, I pursued my Bachelor’s Degree in Computer Engineering at Kantipur Engineering College. Over four rigorous years, I translated theoretical mathematical principles into engineering solutions, diving deep into software development, architecture, and intelligent systems. This degree allowed me to transition from an enthusiastic student into an engineer capable of designing complex, data-driven applications and solving real-world computing problems.</p>           
+ </div>
+
+          </div>
+        </section>
+
+
+    </main>
+</div>
 
 
 
+  <div id="footer"></div>
+
+<script>
+fetch("footer.html")
+    .then(response => response.text())
+    .then(data => {
+        document.getElementById("footer").innerHTML = data;
+    });
+</script>
 
 </body>
 </html>
