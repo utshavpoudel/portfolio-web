@@ -17,6 +17,7 @@ body{
 .container{
     width: 100%;
     padding: 35px 10%;
+    
 }
 
 main.row{
@@ -77,3 +78,4 @@ p{
     line-height: 1.2;
     font-size: 17px;
 }
+

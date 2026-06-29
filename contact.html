@@ -5,9 +5,45 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Contact</title>
         <link rel="stylesheet" href="style.css">
+                <link rel="stylesheet" href="contact.css">
+
 
 </head>
 <body>
     
+<div id="navbar"></div>
+
+<script>
+fetch("navbar.html")
+    .then(response => response.text())
+    .then(data => {
+        document.getElementById("navbar").innerHTML = data;
+    });
+</script>
+
+<form action="https://formspree.io/f/xaqgbbpo" method="POST">
+
+<h1>Contact Form</h1>
+<input type="text" name="first" placeholder="First Name" autocomplete="off" required>
+<input type="text" name="middle" placeholder="Middle Name" autocomplete="off">
+<input type="text" name="last" placeholder="Last Name" autocomplete="off" required>
+<input type="email" name="first" placeholder="Email Address" autocomplete="off" required>
+<textarea rows="5" cols="60" name="message" placeholder="Enter Text" autocomplete="off" ></textarea>
+<button type="submit">Send Message</button>
+
+
+</form>
+
+<div id="footer"></div>
+
+<script>
+fetch("footer.html")
+    .then(response => response.text())
+    .then(data => {
+        document.getElementById("footer").innerHTML = data;
+    });
+</script>
+
+
 </body>
-</html>
+</html> 
