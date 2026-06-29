@@ -90,7 +90,7 @@ textarea {
 input::placeholder,
 textarea::placeholder {
     color: white;        /* Green placeholder */
-    opacity: 1;
+    opacity: 80%;
 }
 
 #footer{
