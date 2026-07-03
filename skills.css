@@ -8,16 +8,16 @@
 
 
 
-.skills img{
-    width: 200px;
-    height: 200px;
-    object-fit: contain;
-    margin: 15px;
-
-   
-}
-
 h1{
     text-align: center;
 }
 
+.fa-brands:hover{
+box-shadow: 0px 3px 12px 0px #ccc;
+    border: 1px solid transparent;
+    
+}
+
+.fa-brands{
+    padding: 20px;
+}
