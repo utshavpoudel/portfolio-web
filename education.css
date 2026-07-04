@@ -45,8 +45,14 @@ header.title{
 }
 
 .contents .box:hover{
-    box-shadow: 0px 3px 12px 0px #ccc;
-    border: 1px solid transparent;
+   
+
+
+    transform:translateY(-10px);
+
+    border-color:#77B91D;
+
+    box-shadow:0 15px 40px rgba(119,185,29,.35);
 }
 
 .contents .box::before{
