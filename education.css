@@ -71,11 +71,18 @@ h3{
     font-size: 20px;
     padding: 10px 0px 6px;
     font-family: Arial, Helvetica, sans-serif    ;
+    margin-bottom: -5px;
 }
 
 p{
     color: #FFFFFF;
     line-height: 1.2;
     font-size: 17px;
+}
+
+#namepart{
+    color: #FFFFFF;
+    font-size: 17px;
+    font-family: Arial, Helvetica, sans-serif    ;
 }
 

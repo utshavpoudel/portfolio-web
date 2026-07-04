@@ -30,7 +30,9 @@
     line-height: 1.8;
 }
 
-.left img{
-    margin: -32px 0px 0px 600px;
+.left img {
+    margin-top: -32px;
+    margin-left: 90%;
+    max-width: 100%;
+    height: auto;
 }
-

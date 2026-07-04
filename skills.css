@@ -13,12 +13,37 @@ h1{
 }
 
 .fa-brands:hover{
-box-shadow: 0px 3px 12px 0px #ccc;
-    border: 1px solid transparent;
-    
+color: #77B91D;
+    transform: translateY(-5px);
+    scale: 1.2;
 }
 
 .fa-brands{
-    padding: 20px;
+        font-size: 150px;
+        transition: 0.3s;
 }
 
+.fa-solid{
+    font-size: 150px;
+    transition: 0.3s;
+}
+
+.fa-solid:hover{
+    color: #77B91D;
+    transform: translateY(-5px);
+    scale: 1.2;
+}
+
+.imagesec {
+    display: grid;
+    grid-template-columns: repeat(3, 1fr);
+    gap: 40px;
+
+    width: 600px;        
+    margin: 0 auto;
+}
+
+.skillsec {
+    width: fit-content;
+    margin: 0 auto;
+}
