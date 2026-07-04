@@ -3,16 +3,18 @@
     display: flex;
     justify-content: space-between;
     align-items: center;
-    padding: 180px 70px;
+    padding:160px 8%;
     color: white;
 }
 
 .left{
     width: 40%;
+    
 }
 
 .right{
     width: 41%;
+    position: relative;
 }
 
 .right img{
@@ -36,3 +38,67 @@
     max-width: 100%;
     height: auto;
 }
+
+
+
+/* responsive using ai */
+@media (max-width: 992px){
+
+    .about{
+        flex-direction: column-reverse;
+        text-align: center;
+        padding: 140px 30px 80px;
+        gap: 50px;
+    }
+
+    .left,
+    .right{
+        width:100%;
+    }
+
+    .left h1{
+        font-size:40px; 
+    }
+
+    .left p{
+        font-size:20px;
+        line-height:1.8;
+    }
+
+    .right img{
+        max-width:350px;
+        width:100%;
+    }
+
+    .left img{
+        display:none;
+    }
+
+}
+
+
+
+
+.about{
+
+    animation:fadeUp 1s ease;
+}
+
+@keyframes fadeUp{
+
+from{
+
+opacity:0;
+transform:translateY(50px);
+
+}
+
+to{
+
+opacity:1;
+transform:translateY(0);
+}
+
+}
+
+

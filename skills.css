@@ -47,3 +47,28 @@ color: #77B91D;
     width: fit-content;
     margin: 0 auto;
 }
+
+@media (max-width: 992px){
+  
+
+    .skills{
+        padding:140px 30px 80px;
+    }
+
+    h1{
+        font-size:40px;
+    }
+
+    .imagesec{
+        width:100%;
+        grid-template-columns:repeat(3,1fr);
+        gap:30px;
+    }
+
+    .fa-brands,
+    .fa-solid{
+        font-size:100px;
+    }
+
+
+}
