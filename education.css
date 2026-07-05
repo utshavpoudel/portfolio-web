@@ -48,7 +48,9 @@ header.title{
     border: 1px solid #4b4b4b;
     cursor: pointer;
     transition: all 0.4s;
-    margin-bottom: 20px;   
+    margin-bottom: 20px;  
+    border-radius: 10px;
+
 }
 
 .contents .box:hover{
