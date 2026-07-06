@@ -10,8 +10,10 @@
 
 <nav class="navbar">
     <div class="logo">
-        <a href="about.html">< UTSHAV POUDEL ></a>
+        <a href="about.html">&lt; UTSHAV POUDEL &gt;</a>
     </div>
+
+    <div class="menu-toggle">&#9776;</div>
 
     <ul class="nav-links">
         <li><a href="about.html" >About</a></li>
@@ -22,6 +24,19 @@
         <li><a href="resume.pdf">Resume</a></li>
     </ul>
 </nav>
+
+
+<script>
+const menu = document.querySelector(".menu-toggle");
+const nav = document.querySelector(".nav-links");
+
+menu.addEventListener("click", () => {
+    nav.classList.toggle("active");
+});
+</script>
+
+
+
 
 
 </body>
