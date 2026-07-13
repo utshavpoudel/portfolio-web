@@ -25,7 +25,7 @@
 
 
     max-width: 500px;
-    height: 650px;
+    height: auto;
     object-fit: cover;
     
 }
@@ -59,6 +59,11 @@
         padding: 140px 30px 80px;
         gap: 50px;
     }
+
+.left{
+    top: 0;
+}
+
 
     .left,
     .right{
