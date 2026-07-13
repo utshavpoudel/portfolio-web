@@ -10,13 +10,17 @@
 
 </head>
 <body>
+
     <div id="navbar"></div>
+
+<script src="navbar.js"></script>
 
 <script>
 fetch("navbar.html")
     .then(response => response.text())
     .then(data => {
         document.getElementById("navbar").innerHTML = data;
+        initializeNavbar();
     });
 </script>
 
